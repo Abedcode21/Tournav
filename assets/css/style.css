@@ -284,7 +284,7 @@ footer {
 .info a:hover {
     border-bottom: black 2px solid;
 }
-
+/* On screens that are 575px or less*/
 @media screen and (max-width: 575px) {
 
     body {
@@ -421,4 +421,93 @@ footer {
 #follow-us img {
    padding-top: 30px;
 }
+
+/* On screens that are 1200px or less*/
+@media screen and ( max-width: 1200px) {
+
+    body {
+      text-align: left;
+    }
+
+   header {     
+       height: 130px;
+       font-size: 15px;
+    }
+
+    #hnav a {
+        font-size: 20px;
+        padding-right: 46px;
+    }
+
+    #hnav a.active {
+       border-bottom: none;
+}
+
+#guide-image {
+   height: 200px;
+   width: 100%
+}
+
+#photo-text {
+   display: none;
+}
+
+h2 {
+   font-size: 20px;
+   width: 100%;
+}
+
+
+/*Suggested Places*/
+
+#suggest {
+   width: 100%;
+   /* height: 300px; */
+   /* display: inline; */
+  
+}
+
+#suggest figure {
+   margin: 0px;
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+#suggest img {
+   height: auto;
+   width: 100%;
+}
+
+#suggest figcaption {
+   width: 100%;
+   font-size: 20px;
+}
+
+/* Sites that may interest you */
+
+.interests h3 {
+   font-size: large; 
+   
+}
+
+
+#sites{
+   height: 300px;
+   margin: 0px;
+ 
+}
+
+.interests {
+   width: 100%;
+   font-size: 18px;
+}
+
+.interests a {
+    font-size: 16px;
+} 
+
+/* footer */
+
+footer {
+   height: 350px;
 
