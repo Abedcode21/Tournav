@@ -72,3 +72,40 @@ h2 {
     position: absolute;
 }
 
+/*Tour Recommandations*/
+
+#suggest {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+}
+
+#suggest figure {
+    display: flex;
+    flex-flow: column;
+}
+
+#suggest img {
+    height: 150px;
+    width: 230px;
+}
+
+#suggest figcaption {
+    width: 230px;
+    background-color: rgb(212, 230, 241);
+    color: rgb(8, 5, 5);
+    font-size: 15px;
+}
+
+#suggest a {
+    text-decoration: none;
+    color: rgb(76, 25, 196);
+}
+
+#suggest figcaption:hover {
+    border-bottom: #000000 2px solid;
+}
+
+
