@@ -61,7 +61,7 @@ CSS
 - The icons in the footer were taken from icons8.com.
 - The font in the home page and places page was taken from Googe font.
 
-### Media
+### Media 
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
