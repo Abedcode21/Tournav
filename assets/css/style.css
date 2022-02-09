@@ -227,3 +227,60 @@ footer {
 
 
 
+/* places page */
+
+.places {
+    height: 360px;
+    width: 100%;
+    margin-top:20px;
+    background-color:whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.places h2 {
+    margin-top: 30px;
+}
+
+.part-place p {
+    text-align: left;
+    font-family: 'Lora', serif;
+    text-align: left;   
+}
+
+.part-place {
+    float: left;
+    height: 300px;
+    width: 600px;
+    margin-left: 10%;
+}
+
+.image-place img {
+    float:right;
+    height: 300px;
+    width: 450px;
+    border-radius: 10%;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+
+.info {
+    font-size: 20px;
+    background-color: rgb(212, 230, 241);
+}
+
+ .info li {
+     list-style-type: none;
+     display: inline;   
+ }
+
+ .info a {
+    text-decoration: none;
+    color: rgb(63, 26, 26);
+    font-size:18px;
+    margin-right:50px;
+    text-transform: uppercase;
+}
+
+.info a:hover {
+    border-bottom: black 2px solid;
+}
