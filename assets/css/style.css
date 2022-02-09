@@ -108,4 +108,49 @@ h2 {
     border-bottom: #000000 2px solid;
 }
 
+/* Sites that may interest you */
+
+.interests h3 {
+    background-color: rgb(212, 230, 241);
+    margin: 0;
+    letter-spacing: 8px;
+    text-align: center;
+    border-bottom: #000000 2px solid;
+}
+
+#sites{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.list-sites > li {
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+
+.interests {
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 20%;
+    padding-top: 4px;
+    padding-bottom: 10px; 
+    text-align: left;
+}
+
+.interests a {
+    color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 15px;
+     letter-spacing: 3px;
+}
+
+.interests a:hover {
+    border-bottom: 2px solid;
+}
+
+
 
