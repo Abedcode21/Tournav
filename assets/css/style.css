@@ -510,4 +510,11 @@ h2 {
 
 footer {
    height: 350px;
+}
+
+.image-place img {
+    height: 200px;
+    width: 270px;
+    margin-top: 80px;
+}
 
