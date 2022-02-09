@@ -1,0 +1,39 @@
+body {
+    letter-spacing: 4px;
+}
+
+ section {
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#hnav {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgb(212, 230, 241);
+}
+
+#hnav a {
+    text-decoration:none;
+    font-size: 23px;
+    color:black;
+}
+
+#hnav a.active {
+    border-bottom: solid 2px;
+}
+
+#hnav a:hover {
+    background-color: rgb(2, 36, 2);
+    color: whitesmoke;
+}
+
