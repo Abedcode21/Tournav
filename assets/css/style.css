@@ -284,238 +284,43 @@ footer {
 .info a:hover {
     border-bottom: black 2px solid;
 }
-/* On screens that are 575px or less*/
-@media screen and (max-width: 575px) {
 
-    body {
-      text-align: left;
+/* On screens that are 1300px or less*/
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+
+    #suggest {
+       height: 160px;
+    } 
+    
+    #suggest img {
+        height: 114px;
+        width: 200px;
+        margin-left: -25px;
+    }
+        
+    #suggest figcaption {
+        width: 200px;
+        margin-left: -25px;
+    }
+    
+    .interests {
+        width: 100%;
+        margin-left: 15px;
+    }
+    
+    #follow-us img {
+        padding-left: 0px;
+        margin-left: 20px;
     }
 
-   header {     
-       height: 130px;
-       font-size: 15px;
+    /* places screen */
+    .part-place {
+        width: 500px;
     }
-
-    #hnav a {
-        font-size: 20px;
-        padding-right: 46px;
+    .info {
+        width: 480px;
     }
-
-    #hnav a.active {
-       border-bottom: none;
-}
-
-#guide-image {
-   height: 200px;
-   width: 100%
-}
-
-#photo-text {
-   display: none;
-}
-
-h2 {
-   font-size: 20px;
-   width: 100%;
-}
-
-
-/*Suggested Places*/
-
-#suggest {
-   width: 100%;
-   height: 1500px;
-   display: block;
-  
-}
-
-#suggest figure {
-   margin: 0px;
-   margin-bottom: 20px;
-   width: 100%;
-}
-
-#suggest img {
-   height: auto;
-   width: 100%;
-}
-
-#suggest figcaption {
-   width: 100%;
-   font-size: 20px;
-}
-
-/* Sites that may interest you */
-
-.interests h3 {
-  width: 100%;
-   
-}
-
-
-#sites{
-   height: 1200px;
-   margin: 0px;
-   display: block;
-}
-
-
-.interests {
-   width: 100%;
-   font-size: 18px;
-}
-
-.interests a {
-    font-size: 16px;
-} 
-
-footer {
-   height: 1250px;
-   display: block;
-   
-}
-
-#contact-us h4 {
-   width: 300%;
-}
-
-#contact-us h3 {
-   margin-left: 66%;
-   padding-top: 30px;
-}
-
-#join-us input {
-   font-size: 18px;
-}
-
-#join-us {
-  padding-top: 30px;
-  margin-left: -75px;
-}
-
-#visit-us {
-   padding-top: 30px;
-}
-
-#visit-us iframe {
-   width: 300%;
-}
-
-#visit-us h3 {
-   margin-left: 60%;
-
-}
-
-#follow-us h3 {
-   margin-left: 125%;
-}
-
-#follow-us img {
-   margin-left: 130%;
-}
-
-#follow-us ul li {
-  padding-left: 150%;
-}
-
-#follow-us img {
-   padding-top: 30px;
-}
-
-/* On screens that are 1200px or less*/
-@media screen and ( max-width: 1200px) {
-
-    body {
-      text-align: left;
+    .info a {
+        font-size: 13px;
     }
-
-   header {     
-       height: 130px;
-       font-size: 15px;
-    }
-
-    #hnav a {
-        font-size: 20px;
-        padding-right: 46px;
-    }
-
-    #hnav a.active {
-       border-bottom: none;
-}
-
-#guide-image {
-   height: 200px;
-   width: 100%
-}
-
-#photo-text {
-   display: none;
-}
-
-h2 {
-   font-size: 20px;
-   width: 100%;
-}
-
-
-/*Suggested Places*/
-
-#suggest {
-   width: 100%;
-   /* height: 300px; */
-   /* display: inline; */
-  
-}
-
-#suggest figure {
-   margin: 0px;
-   margin-bottom: 20px;
-   width: 100%;
-}
-
-#suggest img {
-   height: auto;
-   width: 100%;
-}
-
-#suggest figcaption {
-   width: 100%;
-   font-size: 20px;
-}
-
-/* Sites that may interest you */
-
-.interests h3 {
-   font-size: large; 
-   
-}
-
-
-#sites{
-   height: 300px;
-   margin: 0px;
- 
-}
-
-.interests {
-   width: 100%;
-   font-size: 18px;
-}
-
-.interests a {
-    font-size: 16px;
-} 
-
-/* footer */
-
-footer {
-   height: 350px;
-}
-
-.image-place img {
-    height: 200px;
-    width: 270px;
-    margin-top: 80px;
-}
-}
-}
+     }
