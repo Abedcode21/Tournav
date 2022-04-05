@@ -441,7 +441,7 @@ footer {
         height: 140px;
         width: 100%;
     }
-    
+
     #photo-text {
         font-size: 7.5px;
         width: 40%;
@@ -482,12 +482,12 @@ footer {
     }
 
     #join-us {
-        margin-left: -80px;
-        width:100%;
+        margin-left: -100px;
+        width: 100%;
     }
 
     #visit-us {
-    margin-left: -80px;
+    margin-left: -100px;
     padding-top: 20px;
 
     }
@@ -495,30 +495,30 @@ footer {
     #visit-us iframe {
         width: 250px;
         height: 150px;
-        margin-left: 95px;
+        margin-left: 115px;
     }
 
     #contact-us {
-        margin-left: -85px;
+        margin-left: -100px;
         padding-top: 20px;
     }
 
     .contact-m-p {
     font-size: 15px;
-    margin-left: 180px;
+    margin-left: 177px;
     }
 
     #follow-us {
-        margin-left: -80px;
+        margin-left: -110px;
     }
     #follow-us ul {
         display: flex;
         justify-content: center;
-        margin-left: 180px;
+        margin-left: 203px;
     }
 
     #follow-us a {
-        margin-left: -8px;
+        margin-left: -15px;
     }  
 
     /* places screen */
