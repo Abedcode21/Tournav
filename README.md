@@ -46,22 +46,51 @@ __Tour Recommandations Section__
 
    ![image](assets/images/rdme-places-page.png)
 
-## Testing
+# Testing
 
 ### Validator Testing
 HTML
-- No errors were returned when passing through the official W3C validator.
+- Home page
+<br>
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabedcode21.github.io%2FTournav).
 
 ![image](assets/images/rdme-html-checker-p1.png)
+
+- Places page
+<br>
+  No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabedcode21.github.io%2FTournav%2Fplaces.html).
+
 ![image](assets/images/rdme-html-checker-p1.png)
 
 CSS
-- No errors were found when passing through the official (Jigsaw) validator.
+- Home page
+<br>
+  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ![image](assets/images/rdme-css-validator-p1.png)
+
+- Places page
+<br>
+  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav%2Fplaces.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+  
 ![image](assets/images/rdme-css-validator-p2.png)
 
-## Credits
+
+# Deployment
+
+GitHub Pages
+This project was deployed to GitHub Pages using the following steps:
+1. Log in to GitHub and locate the GitHub Repository
+2. Locate the Settings button on the menu (top of the Repository).
+3. In the navigation bar on the left, click on the Pages tab.
+4. Under "Source", click the dropdown called "None" and select "main".
+5. Click on save and a link for the website will be created (with a blue background).
+6. After a few seconds the background will turn green, the link  of project is published and ready to view.
+
+- The live link can be found here - [Tournav](https://abedcode21.github.io/Tournav)
+
+
+# Credits
 
 ### Content
 - The text for the Home page and places page was taken from Wikipedia Article A.
@@ -74,7 +103,7 @@ CSS
 - The images used for the places page were taken from This Open Source site (pexels.com).
 
 
-## Accessibility
+# Accessibility
 
 - Hmoe page
 
@@ -88,6 +117,7 @@ CSS
    website  is highly accessible for screen readers.
 - The performance score can vary heavily, depending on which computer was used for testing (I tested on several devices and 
   this was the best score I got).
+
 
 
 
