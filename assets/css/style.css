@@ -285,7 +285,7 @@ footer {
     border-bottom: black 2px solid;
 }
 
-/* On screens that are 1300px or less for desktop*/
+/* On screens that are 1300px or less for Labtop*/
 @media screen and (max-width: 1300px) and (min-width: 900px) {
 
     #suggest {
@@ -325,7 +325,7 @@ footer {
     }
      }
 
-/* On screens that are 800px or less for laptop*/
+/* On screens that are 800px or less for Tablet*/
 @media screen and (max-width: 800px) and (min-width: 380px) {
     
     h2 {
@@ -426,3 +426,129 @@ footer {
     margin-right: 80px;
     }
     }     
+/* On screens that are 370px or less for mobile*/
+@media screen and (max-width: 370px) {
+    #hnav {
+        width: 85%;
+    }
+
+    #hnav a {
+        font-size: 15px;
+        margin-right: 25px;
+    }
+
+    #guide-image {
+        height: 140px;
+        width: 100%;
+    }
+    
+    #photo-text {
+        font-size: 7.5px;
+        width: 40%;
+        height: 40%;
+        border-radius:50%;
+        padding-top: 10px;
+        padding-left: 10px;
+        bottom: 5px;
+        right:10px;
+    }
+
+    /*Suggested Places*/
+    h2 {
+        font-size: 100%
+        }
+    #suggest {
+        height: 800px;
+        display: block;
+    }
+
+    #sites {
+        height: 1150px;
+        display: block;
+        text-align: left;
+        width: 80%;
+    }
+
+    .interests {
+    width: 100%;
+    margin-left: 15%;
+    }
+
+    footer {
+        height: 900px;
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #join-us {
+        margin-left: -80px;
+        width:100%;
+    }
+
+    #visit-us {
+    margin-left: -80px;
+    padding-top: 20px;
+
+    }
+
+    #visit-us iframe {
+        width: 250px;
+        height: 150px;
+        margin-left: 95px;
+    }
+
+    #contact-us {
+        margin-left: -85px;
+        padding-top: 20px;
+    }
+
+    .contact-m-p {
+    font-size: 15px;
+    margin-left: 180px;
+    }
+
+    #follow-us {
+        margin-left: -80px;
+    }
+    #follow-us ul {
+        display: flex;
+        justify-content: center;
+        margin-left: 180px;
+    }
+
+    #follow-us a {
+        margin-left: -8px;
+    }  
+
+    /* places screen */
+    .places {
+        height: 500px;
+        width: 100%;
+        padding-bottom: 350px;
+        display: flex;
+        flex-direction: column-reverse;
+        }
+    .image-place img {
+        width: 250px;
+        height: 140px;
+        margin-left: 230px;
+    }
+
+    .part-place{
+        width: 90%;
+    }
+
+    .info {
+        width:fit-content;
+        margin-left: 20px;
+        background-color:whitesmoke;
+    }
+
+    .info a {
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    }
