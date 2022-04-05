@@ -285,7 +285,7 @@ footer {
     border-bottom: black 2px solid;
 }
 
-/* On screens that are 1300px or less*/
+/* On screens that are 1300px or less for desktop*/
 @media screen and (max-width: 1300px) and (min-width: 900px) {
 
     #suggest {
@@ -324,3 +324,105 @@ footer {
         font-size: 13px;
     }
      }
+
+/* On screens that are 800px or less for laptop*/
+@media screen and (max-width: 800px) and (min-width: 380px) {
+    
+    h2 {
+    font-size: 30px;
+    }
+    
+    #suggest {
+    height: 1950px;
+    width: 100%;
+    display: block;
+    }
+    
+    #suggest img {
+    height: 337px;
+    width: 600px;
+    margin-left: 50px;
+    }
+    
+    #suggest figcaption {
+    font-size: 25px;
+    width: 600px;
+    margin-left: 50px;
+    }
+    
+    #sites {
+    height: 1500px;
+    display: block;
+    }
+    
+    .interests {
+    width: 600px;
+    margin-left: 95px;
+    text-align: center;
+    font-size: 25px;
+    }
+    .interests a {
+    font-size: 25px;
+    }
+    
+    footer {
+    height: 1000px;
+    display: block;
+    width: 780px;
+    padding-top: 20px;
+    }
+    
+    #join-us {
+    margin-left: 50%;
+    width: 600px;
+    
+    }
+    #visit-us {
+    margin-left: 50%;
+    padding-top: 20px;
+    
+    }
+    #visit-us iframe {
+    width: 600px;
+    height: 300px;
+    margin-left: -15%;
+    }
+    
+    #contact-us {
+    padding-top: 20px;
+    margin-left: 50%;
+    }
+    
+    .contact-m-p {
+    font-size: 20px;
+    margin-left: 140%;
+    }
+    
+    #follow-us {
+    margin-left: 50%;
+    }
+    
+    #follow-us ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 190px;
+    }
+    
+    #follow-us a {
+    margin-left: 30px;
+    }
+    
+    /* places screen */
+    .places {
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    
+    .image-place {
+    margin-right: 80px;
+    }
+    }     
