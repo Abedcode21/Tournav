@@ -50,29 +50,22 @@ __Tour Recommandations Section__
 
 ### Validator Testing
 HTML
-- Home page
-<br>
-No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabedcode21.github.io%2FTournav).
+
+No errors were returned in Home page when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabedcode21.github.io%2FTournav).
 
 ![image](assets/images/rdme-html-checker-p1.png)
 
-- Places page
-<br>
-  No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabedcode21.github.io%2FTournav%2Fplaces.html).
+  No errors were returned in Places page when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabedcode21.github.io%2FTournav%2Fplaces.html).
 
 ![image](assets/images/rdme-html-checker-p1.png)
 
 CSS
-- Home page
-<br>
-  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+  No errors were found in Home page when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ![image](assets/images/rdme-css-validator-p1.png)
 
-- Places page
-<br>
-  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav%2Fplaces.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
-  
+  No errors were found in Places page when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabedcode21.github.io%2FTournav%2Fplaces.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
 ![image](assets/images/rdme-css-validator-p2.png)
 
 
